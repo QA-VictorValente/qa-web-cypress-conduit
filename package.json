@@ -1,0 +1,28 @@
+{
+  "name": "03-web-cypress",
+  "version": "1.0.0",
+  "description": "E2E Web Automation with Cypress, TypeScript, Network Interception and App Actions against Conduit RealWorld",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --headless",
+    "test": "cypress run --headless"
+  },
+  "keywords": [
+    "cypress",
+    "typescript",
+    "e2e",
+    "conduit",
+    "realworld",
+    "cy-intercept",
+    "qa",
+    "sdet"
+  ],
+  "author": "Victor",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.8.1",
+    "typescript": "^5.3.3"
+  }
+}

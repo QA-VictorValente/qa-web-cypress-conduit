@@ -1,0 +1,33 @@
+{
+  "newArticle": {
+    "title": "E2E Testing Best Practices with Cypress and TypeScript",
+    "description": "How to structure modern Cypress suites using network interception and app actions",
+    "body": "Page Objects and App Actions provide a scalable foundation for modern web test automation.",
+    "tagList": ["cypress", "qa", "automation", "sdet"]
+  },
+  "mockArticles": {
+    "articles": [
+      {
+        "slug": "mock-article-1",
+        "title": "Mocked Article - Cypress Intercept in Action",
+        "description": "Demonstrating cy.intercept() capabilities in Conduit RealWorld",
+        "body": "Content mocked dynamically via Cypress fixtures.",
+        "tagList": ["cypress", "mocking"],
+        "createdAt": "2026-10-07T20:00:00.000Z",
+        "updatedAt": "2026-10-07T20:00:00.000Z",
+        "favorited": false,
+        "favoritesCount": 42,
+        "author": {
+          "username": "sdet_victor",
+          "bio": "Lead SDET",
+          "image": "https://api.realworld.io/images/smiley-cy.jpg",
+          "following": false
+        }
+      }
+    ],
+    "articlesCount": 1
+  },
+  "mockTags": {
+    "tags": ["qa-automation", "sdet", "cypress", "playwright", "k6", "typescript"]
+  }
+}

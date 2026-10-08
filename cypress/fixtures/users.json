@@ -1,0 +1,14 @@
+{
+  "validUser": {
+    "username": "sdet_victor_qa",
+    "email": "sdet.victor.qa@example.com",
+    "password": "Password123!",
+    "token": "mock-jwt-token-sdet-qa-conduit",
+    "bio": "Senior QA Automation Lead / SDET",
+    "image": "https://api.realworld.io/images/smiley-cy.jpg"
+  },
+  "invalidUser": {
+    "email": "invalid_user_qa@test.com",
+    "password": "wrongpassword"
+  }
+}
